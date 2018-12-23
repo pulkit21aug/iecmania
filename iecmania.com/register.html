@@ -1,0 +1,176 @@
+<html>
+<head>
+
+<title>
+register...</title>
+<script LANGUAGE="Javascript">
+ function validate() {
+ if (document.form.userid.value.length<1 ) {
+ alert ("enter a valid userid");
+return false;
+}
+ if (document.form.password.value.length<1 ) {
+alert ("enter a valid password");
+return fasle;
+}
+ if (document.form.firstname.value.length<3) {
+ alert ("enter valid name"); 
+return false;
+}
+if (document.form.lastname.value.length<3 ) {
+ alert ("enter valid lastname"); 
+return false;
+}
+if(document.form.branch.value.length <1) {
+alert ("enter valid branch");
+return false;
+}
+
+if (document.form.email.value.length<10 ) {
+alert ("enter valid email");
+return false;
+}
+if (document.form.contactno.value.length<10 ) {
+ alert (" plz enter 000000000 if u dont have any contactno");
+return false;
+}
+if (document.form.company.value.length<2 ) {
+ alert ("sir/mam if u are not working in a firm then enter null");
+return false;
+}
+return true;
+}
+</script>
+
+</head>
+<body bgcolor="black" text="orange">
+
+
+
+    <table WIDTH="100%" border=0 align="center" cellpadding=0 cellspacing=0>
+	<tr>
+		<td height="17" background="images/topbg.gif">&nbsp;	
+		</td>
+	</tr>
+
+      <tr><marquee>
+       
+           
+        
+     
+       
+           
+        
+        <img src="images/ieclogo.jpg" height"50" width="50">
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+<img src="images/ieclogo.jpg" height"50" width="50">        
+
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+<img src="images/ieclogo.jpg" height"50" width="50">        
+</marquee>
+</TR>        
+</table>
+<table width=775 height="10%"  border=0 align="center" cellpadding=0 cellspacing=0>
+	
+	<tr>
+		<td height="78" background="images/navbg.gif">
+ <a href="iecmania.html"><font size="5" color="white" >home</font></a>
+      
+        &nbsp;&nbsp; <a href="alumini.html"><font size="5" color="white" >alumini</font></a>
+       &nbsp;&nbsp;<a href="http://localhost/iecfile.asp"> <font size="5" color="white">notice</font></a>
+        &nbsp;&nbsp;<a href="about.html"><font size="5" color="white">about</font></a>      
+ &nbsp;&nbsp;<a href="razmataz.html"><font size="5" color="white">razmataz</font></a>      
+
+  
+  </td>
+	</tr>
+ </table>
+<center>
+  <form name="form" method=post ACTION="http://localhost/sign.asp" onSubmit ="return validate();"  >
+   enter userid 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input  type=text name=userid>
+   <p>
+ enter password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input  type=password name=password size="20">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p>
+enter first name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=firstname >
+
+</p>
+
+enter last name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type=text name=lastname>
+   <p>
+enter ur batch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select name=batch>
+  
+  <option value="2000">2000
+  <option value="2001">2001
+  <option value="2002">2002
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+<p>enter your branch
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=branch>
+</p>
+<p>
+
+enter email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=email>
+</p>
+
+<p>
+enter contactno&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=contactno>
+</p>
+
+<p>
+ your company name
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=text name=company>
+</p>
+
+<input type=submit value="submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <input type=reset value="reset"> 
+</form>
+
+   
+
+</center>
+    <font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </font>
+<a href="iecmania.html"><font size=5>home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="alumini.html"><font size=5>back</font></a>
+
+
+
+<table WIDTH="100%" border=0 align="center" cellpadding=0 cellspacing=0>
+	<tr>
+                
+
+		<td height="17" background="http://localhost/images/topbg.gif">&nbsp;	
+		</td>
+	</tr
+
+
+
+</table>
+</body>

@@ -1,0 +1,123 @@
+<html>
+ <head>
+ <title>update..</title>
+ <script LANGUAGE="JavaScript" >
+  function validate() {  
+  if(document.form2.userid.value.length < 1 ){
+   alert ("plz enter a valid uerid of your own");
+   return false;
+}
+
+if (document.form2.password.value.length <1) {
+ alert ("plz enter your password correctly");
+return false;
+}
+
+if (document.form2.email.value.length <10 ) {
+ alert ("plz enter a valid emailid");
+ return false;
+}
+if (document.form2.conatctno.value.length <1 ) {
+ alert ("plz enter 0000000000 if u dont have any no");
+ return false;
+}
+if (document.form2.company.value.length <2 ) {
+ alert ("sir/mam if u are not working with a company plz enter NULL");
+return false;
+}
+return true;
+}
+</script>
+
+</head>
+<body bgcolor="black" text="orange">
+
+
+
+    <table WIDTH="100%" border=0 align="center" cellpadding=0 cellspacing=0>
+	<tr>
+		<td height="17" background="images/topbg.gif">&nbsp;	
+		</td>
+	</tr>
+
+      <tr><marquee>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <img src="images/ieclogo.jpg" height"50" width="50">
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+<img src="images/ieclogo.jpg" height"50" width="50">        
+
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+
+          &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+ &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+         &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;
+<img src="images/ieclogo.jpg" height"50" width="50">        
+</TR>        
+</table>
+</marquee>
+
+ <table width=775 height="10%"  border=0 align="center" cellpadding=0 cellspacing=0>
+	
+	<tr>
+		<td height="78" background="images/navbg.gif">
+
+    <a href="iecmania.html"><font size="5" color="white" >home</font></a>
+      
+        &nbsp;&nbsp; <a href="alumini.html"><font size="5" color="white" >alumini</font></a>
+       &nbsp;&nbsp;<a href="http://localhost/iecfile.asp"> <font size="5" color="white">notice</font></a>
+        &nbsp;&nbsp;<a href="about.html"><font size="5" color="white">about</font></a>      
+ &nbsp;&nbsp;<a href="razmataz.html"><font size="5" color="white">razmataz</font></a>      
+
+  </td>
+	</tr>
+ </table>
+
+
+
+<center> 
+<form name="form2"  method=post action="http://localhost/modify.asp"  onSubmit="return validate();">
+  enter uerid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input ytpe=text name=userid>
+<p>
+ enter password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type=password name=password>
+</p>
+enter&nbsp; email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type=text name=email>
+  <p>
+enter contact no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=contactno>
+ &nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p> 
+enter   company&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text name=company>
+</p>
+<p>
+ <input type=submit >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type=reset >
+</form>
+
+
+</body>
+</html>
